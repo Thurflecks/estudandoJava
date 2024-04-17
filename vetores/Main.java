@@ -16,11 +16,13 @@ public class Main {
                 n[i] = m;
             }
         }
+        System.out.println("Valores Negativos: ");
         for (int i : n) {
             if(i<0){
                 System.out.println(i);
             }
         }
+
 
         sc.close();
 
